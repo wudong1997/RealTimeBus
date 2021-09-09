@@ -350,7 +350,7 @@ LeanStorage 在结构化数据存储方面，与 DB 的区别在于：
 我的选项是打开用户的个人中心，个人中心可以展示个人信息（头像、用户名等），并提供登录界面跳转按钮，显示用户状态（登录/非登录），以及进行校车实时信息的查询与操作。  
 ![image](https://github.com/wudong1997/RealTimeBus/blob/main/readme_pic/%E5%9B%BE%E7%89%8712.png)![image](https://github.com/wudong1997/RealTimeBus/blob/main/readme_pic/%E5%9B%BE%E7%89%8713.png)    
 
-7.3校车实时信息展现
+### 7.3校车实时信息展现
 用户发送查询校车的请求后，客户端从云数据库下载近几秒内乘车用户的上传数据，经过客户端解算后通过地图反馈给等车端用户。地图上可显示用户当前所在位置、校车当前所在位置以及校车说走过的路径等，同时打开时刻表可以显示最近一辆校车到达所需要的时间。  
 ![image](https://github.com/wudong1997/RealTimeBus/blob/main/readme_pic/%E5%9B%BE%E7%89%8714.png)![image](https://github.com/wudong1997/RealTimeBus/blob/main/readme_pic/%E5%9B%BE%E7%89%8715.png)![image](https://github.com/wudong1997/RealTimeBus/blob/main/readme_pic/%E5%9B%BE%E7%89%8716.png)  
 图9 不同时间显示校车的动态位置  
