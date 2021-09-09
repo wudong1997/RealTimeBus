@@ -76,4 +76,8 @@ Android studio相比较于其他开发平台的优点有：
 8、更完善的插件系统  
 9、完美整合版本控制系统  
 ### 3.3.3 工程结构
+![image](https://github.com/wudong1997/RealTimeBus/readme_pic/图片1.png)
+4  软件设计
+4.1体系结构
+本系统采用客户端/服务器（Client/Server）模式，客户端用Java 语言开发，在 Android 平台上运行。服务器端使用LeanCloud一站式云服务器，调用LeanCloud提供的数据服务接口进行数据访问，校车位置信息来源于用户的手机定位信息。用户的定位信息来源于高德地图API。客户端通过 3G、4G或者WiFi网络访问服务器端查询接口，服务器端将查询到的实时数据以List格式返回给客户端，系统的架构如图3所示
 
